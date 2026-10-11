@@ -2,11 +2,11 @@
 
 <img src="assets/ticker.svg" width="100%" alt="Volatility models, loss functions and stocks studied">
 
-<p align="center">
-<a href="https://claude.ai/artifact/Hza4orUi9ChT762MpRuPvj"><b>▶ Live interactive portfolio</b></a> · includes a working Black-Scholes pricer with Greeks
-</p>
-
 I work where markets, probability and code meet: volatility modelling, derivatives pricing, and machine learning on noisy financial time series.
+
+<img src="assets/pipeline.svg" width="100%" alt="Animated pipeline: tick data flows into a neural network forward pass and out as a volatility forecast cone">
+
+<p align="center"><a href="https://claude.ai/artifact/Hza4orUi9ChT762MpRuPvj"><b>▶ Full animated portfolio</b></a></p>
 
 <img src="assets/sec-quant.svg" width="100%" alt="01 Quant & Finance">
 
@@ -20,10 +20,13 @@ Forecasting daily volatility for **HDFCBANK, RELIANCE and INFY (2015–2024)**.
 <!-- Once you have results, replace the line above with something like:
 **Key result:** GJR-GARCH beat LSTM on QLIKE for 2 of 3 stocks (DM test, p < 0.05) -->
 
-### Black-Scholes Options Pricer
-Deriving and implementing Black-Scholes from first principles: no-arbitrage, replication, risk-neutral pricing.
-- Planned: Greeks, implied volatility solver, Monte Carlo and binomial-tree comparison
+### Black-Scholes, from first principles
+Working through the derivation: no-arbitrage, replication, risk-neutral pricing.
+- Next: Greeks and an implied volatility solver
+- Then: Monte Carlo vs binomial-tree comparison
 - 🔄 *In progress*
+
+<img src="assets/volsurface.svg" width="100%" alt="Animated implied volatility surface morphing between calm and stressed regimes">
 
 <img src="assets/sec-ml.svg" width="100%" alt="02 Machine Learning & Systems">
 
@@ -35,6 +38,8 @@ Hardware-aware anomaly detection for home and IoT networks.
 
 ### Operations Dashboard
 Full-stack dashboard for a real oil-products business, built with React, Vite and Supabase.
+
+<img src="assets/compute.svg" width="100%" alt="Animated compute panel: tiled matrix multiply, kernel occupancy and training loss curves">
 
 <img src="assets/sec-stack.svg" width="100%" alt="03 Stack & Learning">
 
