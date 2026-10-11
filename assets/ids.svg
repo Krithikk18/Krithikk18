@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Animated intrusion detection: IoT devices send traffic to a gateway IDS, a compromised camera triggers an anomaly-score spike and an alert row in the flow log">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="Animated intrusion detection: IoT devices send traffic to a gateway IDS, a compromised camera triggers an anomaly-score spike and an alert row in the flow log">
 <style>
-.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}.s{font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif}
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}.s{font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif}.f{font-family:'Cambria Math', 'STIX Two Math', Cambria, Georgia, 'Times New Roman', serif}
 @keyframes win{0%,48%{opacity:0}52%,86%{opacity:1}90%,100%{opacity:0}}
 @keyframes ring{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.6);opacity:0}}
 @keyframes draw{0%{stroke-dashoffset:1400}80%,100%{stroke-dashoffset:0}}
@@ -11,8 +11,8 @@
 .cr{animation:cur 8s linear infinite}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}
 </style>
-<defs><clipPath id="fr"><rect width="1200" height="380" rx="12"/></clipPath></defs>
-<g clip-path="url(#fr)"><rect width="1200" height="380" fill="#0A0C10"/>
+<defs><clipPath id="fr"><rect width="1200" height="410" rx="12"/></clipPath></defs>
+<g clip-path="url(#fr)"><rect width="1200" height="410" fill="#0A0C10"/>
 <text class="m" x="30" y="40" font-size="11" fill="#8B95A5" letter-spacing="1.6"><tspan fill="#60A5FA">INTRUSION DETECTION</tspan>  home / IoT network</text>
 <path d="M300 212L203 117M300 212L343 103M300 212L458 153M300 212L480 238M300 212L397 307M300 212L257 321M300 212L142 271M300 212L120 186" stroke="#222934" stroke-width="1.2"/>
 <circle r="2.4" fill="#60A5FA"><animateMotion dur="2.1s" begin="-0.3s" repeatCount="indefinite" path="M203 117L300 212"/></circle><circle r="2.4" fill="#4B5563"><animateMotion dur="2.5s" begin="-0.2s" repeatCount="indefinite" path="M300 212L203 117"/></circle><circle r="2.4" fill="#60A5FA"><animateMotion dur="2.3s" begin="-0.9s" repeatCount="indefinite" path="M343 103L300 212"/></circle><circle r="2.4" fill="#4B5563"><animateMotion dur="1.9s" begin="-0.9s" repeatCount="indefinite" path="M300 212L343 103"/></circle><circle r="2.4" fill="#60A5FA"><animateMotion dur="1.8s" begin="-0.8s" repeatCount="indefinite" path="M458 153L300 212"/></circle><circle r="2.4" fill="#4B5563"><animateMotion dur="1.9s" begin="-0.2s" repeatCount="indefinite" path="M300 212L458 153"/></circle><circle r="2.4" fill="#60A5FA"><animateMotion dur="2.2s" begin="-1.8s" repeatCount="indefinite" path="M480 238L300 212"/></circle><circle r="2.4" fill="#4B5563"><animateMotion dur="1.9s" begin="-0.4s" repeatCount="indefinite" path="M300 212L480 238"/></circle><circle r="2.4" fill="#60A5FA"><animateMotion dur="2.4s" begin="-2.3s" repeatCount="indefinite" path="M397 307L300 212"/></circle><circle r="2.4" fill="#4B5563"><animateMotion dur="2.4s" begin="-0.9s" repeatCount="indefinite" path="M300 212L397 307"/></circle><circle r="2.4" fill="#60A5FA"><animateMotion dur="2.8s" begin="-0.1s" repeatCount="indefinite" path="M257 321L300 212"/></circle><circle r="2.4" fill="#4B5563"><animateMotion dur="2.7s" begin="-0.8s" repeatCount="indefinite" path="M300 212L257 321"/></circle><circle r="2.4" fill="#60A5FA"><animateMotion dur="1.9s" begin="-0.2s" repeatCount="indefinite" path="M142 271L300 212"/></circle><circle r="2.4" fill="#4B5563"><animateMotion dur="2.1s" begin="-1.7s" repeatCount="indefinite" path="M300 212L142 271"/></circle><circle r="2.4" fill="#60A5FA"><animateMotion dur="2.0s" begin="-1.2s" repeatCount="indefinite" path="M120 186L300 212"/></circle><circle r="2.4" fill="#4B5563"><animateMotion dur="2.4s" begin="-0.9s" repeatCount="indefinite" path="M300 212L120 186"/></circle>
@@ -42,11 +42,14 @@
 <rect class="w" x="939" y="70" width="68" height="140" fill="#3B82F6" fill-opacity=".14"/>
 <path class="ln" d="M600 193L606 194L611 191L617 190L623 188L628 197L634 203L640 200L645 199L651 196L657 184L662 182L668 190L674 189L679 196L685 195L691 198L696 201L702 186L707 193L713 186L719 182L724 196L730 197L736 207L741 199L747 195L753 192L758 182L764 187L770 183L775 189L781 195L787 201L792 197L798 192L804 193L809 185L815 191L821 183L826 189L832 190L838 196L843 204L849 200L855 190L860 194L866 185L872 191L877 196L883 203L888 197L894 206L900 201L905 194L911 182L917 191L922 187L928 191L934 192L939 193L945 163L951 134L956 110L962 91L968 80L973 76L979 80L985 91L990 110L996 134L1002 163L1007 193L1013 190L1019 192L1024 188L1030 193L1036 196L1041 195L1047 199L1053 197L1058 190L1064 184L1069 191L1075 181L1081 188L1086 192L1092 197L1098 203L1103 199L1109 197L1115 185L1120 191L1126 193L1132 196L1137 202L1143 203L1149 207L1154 204L1160 197" fill="none" stroke="#60A5FA" stroke-width="1.8"/>
 <line class="cr" x1="600" y1="70" x2="600" y2="210" stroke="#C9D1DB" stroke-opacity=".35"/>
-<text class="m" x="600" y="248" font-size="10" fill="#5B6574" letter-spacing="1" xml:space="preserve">TIME      SRC → DST                  VERDICT   SCORE</text>
-<text class="m" x="600" y="272" font-size="11" fill="#8B95A5" xml:space="preserve">21:04:11  10.0.0.31 → 10.0.0.1:443   benign    0.06</text>
-<text class="m" x="600" y="294" font-size="11" fill="#8B95A5" xml:space="preserve">21:04:12  10.0.0.18 → 10.0.0.1:53    benign    0.04</text>
-<text class="m" x="600" y="316" font-size="11" fill="#8B95A5" xml:space="preserve">21:04:12  10.0.0.24 → 10.0.0.1:8883  benign    0.09</text>
-<g class="w"><rect x="592" y="323" width="568" height="22" rx="4" fill="#3B82F6" fill-opacity=".22"/><text class="m" x="600" y="338" font-size="11" fill="#F3F5F8" xml:space="preserve" font-weight="600">21:04:13  10.0.0.12 → 10.0.0.1:23    ALERT     0.96</text></g>
-<text class="m" x="1160" y="364" font-size="10" fill="#5B6574" text-anchor="end">illustrative traffic · simulated scores</text>
-<rect x=".5" y=".5" width="1199" height="379" rx="12" fill="none" stroke="#222934"/></g>
+<text class="f" x="600" y="236" font-size="15" fill="#C9D1DB" font-style="italic" xml:space="preserve"><tspan>s(x) = ||x − D(E(x))||²      alert if  s(x) &gt; τ</tspan></text>
+<g class="w"><text class="f" x="1012" y="92" font-size="14" fill="#BFDBFE" font-style="italic" xml:space="preserve"><tspan>s = 0.96 &gt; τ</tspan></text></g>
+<text class="m" x="600" y="268" font-size="10" fill="#5B6574" letter-spacing="1" xml:space="preserve">TIME      SRC → DST                  VERDICT   SCORE</text>
+<text class="m" x="600" y="292" font-size="11" fill="#8B95A5" xml:space="preserve">21:04:11  10.0.0.31 → 10.0.0.1:443   benign    0.06</text>
+<text class="m" x="600" y="314" font-size="11" fill="#8B95A5" xml:space="preserve">21:04:12  10.0.0.18 → 10.0.0.1:53    benign    0.04</text>
+<text class="m" x="600" y="336" font-size="11" fill="#8B95A5" xml:space="preserve">21:04:12  10.0.0.24 → 10.0.0.1:8883  benign    0.09</text>
+<g class="w"><rect x="592" y="343" width="568" height="22" rx="4" fill="#3B82F6" fill-opacity=".22"/><text class="m" x="600" y="358" font-size="11" fill="#F3F5F8" xml:space="preserve" font-weight="600">21:04:13  10.0.0.12 → 10.0.0.1:23    ALERT     0.96</text></g>
+<text class="f" x="30" y="392" font-size="15" fill="#C9D1DB" font-style="italic" xml:space="preserve"><tspan>p(attack | x) = σ(w</tspan><tspan dy="-6.3" font-size="10.2">T</tspan><tspan dy="6.3"> x + b)</tspan></text>
+<text class="m" x="1160" y="394" font-size="10" fill="#5B6574" text-anchor="end">illustrative traffic · simulated scores</text>
+<rect x=".5" y=".5" width="1199" height="409" rx="12" fill="none" stroke="#222934"/></g>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Krithikk — CS undergrad in Cyber Security at Amrita, Coimbatore. Machine learning, intrusion detection and finance. Animated network mesh.">
 <style>
-.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}.s{font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif}
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}.s{font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif}.f{font-family:'Cambria Math', 'STIX Two Math', Cambria, Georgia, 'Times New Roman', serif}
 @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 @keyframes ring{0%{transform:scale(1);opacity:.7}100%{transform:scale(3.4);opacity:0}}
 @keyframes type{from{width:0}to{width:560px}}
@@ -13,6 +13,8 @@
 .rg{transform-box:fill-box;transform-origin:center;animation:ring 2.6s ease-out infinite}
 .tc{animation:type 2.2s steps(48) .5s both}
 .cu{animation:blink 1s steps(1) infinite,cur 2.2s steps(48) .5s both}
+@keyframes fx{0%,2%{opacity:0;transform:translateY(6px)}6%,30%{opacity:1;transform:none}34%,100%{opacity:0;transform:translateY(-6px)}}
+.fx{opacity:0;animation:fx 12s ease infinite}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}
 </style>
 <defs><clipPath id="fr"><rect width="1200" height="380" rx="12"/></clipPath></defs>
@@ -48,11 +50,15 @@
 <circle cx="666" cy="258" r="2.6" fill="#4B5563"/>
 <circle cx="913" cy="91" r="2.6" fill="#4B5563"/>
 <rect width="1200" height="380" fill="url(#fl)"/>
-<g class="a1"><text class="m" x="58" y="76" font-size="12" fill="#5B6574" letter-spacing="3">KRITHIKK18</text><text class="s" x="54" y="178" font-size="92" fill="#F3F5F8" font-weight="700" letter-spacing="-3">Krithikk<tspan fill="#3B82F6">.</tspan></text></g>
+<g class="a1"><text class="m" x="58" y="76" font-size="12" fill="#5B6574" letter-spacing="3">KRITHIKK18</text><path d="M63.7 106.2V172H68.9V138.8L97.5 172H104.1L73.8 137L102.7 106.2H96.1L68.9 135.5V106.2ZM127.9 106.2V172H133.1V144.4H141.7L160.9 172H167.3L147.3 144.1Q151.1 143.6 154.4 142.1Q159.4 139.9 162.3 135.6Q165.2 131.3 165.2 125.3Q165.2 119.2 162.3 114.9Q159.4 110.7 154.4 108.5Q149.3 106.2 142.9 106.2ZM133.1 139.8V110.8H142.9Q147.9 110.8 151.8 112.5Q155.6 114.2 157.8 117.4Q160.1 120.6 160.1 125.3Q160.1 130 157.9 133.2Q155.7 136.5 151.8 138.1Q147.9 139.8 142.9 139.8ZM191.9 106.2V172H197.1V106.2ZM221.2 111.1H238.5V172H243.6V111.1H260.9V106.2H221.2ZM328.8 106.2V133.7H290.3V106.2H285.2V172H290.3V138.6H328.8V172H334.1V106.2ZM364.7 106.2V172H369.9V106.2ZM400.3 106.2V172H405.5V138.8L434.2 172H440.7L410.4 137L439.3 106.2H432.8L405.5 135.5V106.2ZM464.3 106.2V172H469.5V138.8L498.2 172H504.8L474.4 137L503.3 106.2H496.8L469.5 135.5V106.2Z" fill="#F3F5F8"/></g>
 <g clip-path="url(#tcl)"><text class="m" x="58" y="233" font-size="15" fill="#60A5FA">CS undergrad · Cyber Security · Amrita, Coimbatore</text></g>
 <rect class="cu" x="60" y="218" width="8" height="19" fill="#60A5FA"/>
 <g class="a2"><rect x="58" y="270" width="164" height="34" rx="17" fill="#10141A" stroke="#222934"/><circle cx="74" cy="287" r="3" fill="#3B82F6"/><text class="s" x="84" y="292" font-size="13" fill="#C9D1DB">Machine Learning</text></g>
 <g class="a3"><rect x="232.4" y="270" width="190" height="34" rx="17" fill="#10141A" stroke="#222934"/><circle cx="248.4" cy="287" r="3" fill="#3B82F6"/><text class="s" x="258" y="292" font-size="13" fill="#C9D1DB">Intrusion Detection</text></g>
 <g class="a4"><rect x="432.0" y="270" width="89" height="34" rx="17" fill="#10141A" stroke="#222934"/><circle cx="448.0" cy="287" r="3" fill="#3B82F6"/><text class="s" x="458" y="292" font-size="13" fill="#C9D1DB">Finance</text></g>
+<line x1="58" y1="326" x2="80" y2="326" stroke="#3B82F6"/>
+<g class="fx" style="animation-delay:0s"><text class="f" x="90" y="332" font-size="17" fill="#C9D1DB" font-style="italic" xml:space="preserve"><tspan>σ²</tspan><tspan dy="5.4" font-size="11.6">t</tspan><tspan dy="-5.4"> = ω + α·ε²</tspan><tspan dy="5.4" font-size="11.6">t−1</tspan><tspan dy="-5.4"> + β·σ²</tspan><tspan dy="5.4" font-size="11.6">t−1</tspan><tspan dy="-5.4"> </tspan></text></g>
+<g class="fx" style="animation-delay:4s"><text class="f" x="90" y="332" font-size="17" fill="#C9D1DB" font-style="italic" xml:space="preserve"><tspan>p(attack | x) = σ(w</tspan><tspan dy="-7.1" font-size="11.6">T</tspan><tspan dy="7.1"> x + b)</tspan></text></g>
+<g class="fx" style="animation-delay:8s"><text class="f" x="90" y="332" font-size="17" fill="#C9D1DB" font-style="italic" xml:space="preserve"><tspan>f(x) = φ</tspan><tspan dy="5.4" font-size="11.6">0</tspan><tspan dy="-5.4"> + Σ</tspan><tspan dy="5.4" font-size="11.6">i</tspan><tspan dy="-5.4"> φ</tspan><tspan dy="5.4" font-size="11.6">i</tspan><tspan dy="-5.4">(x)</tspan></text></g>
 <rect x=".5" y=".5" width="1199" height="379" rx="12" fill="none" stroke="#222934"/></g>
 </svg>
