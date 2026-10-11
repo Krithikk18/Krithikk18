@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 84" width="1200" height="84" role="img" aria-label="03 Finance">
+<style>@keyframes sc{from{transform:translateX(-240px)}to{transform:translateX(1200px)}}@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}.sc{animation:sc 4s cubic-bezier(.6,0,.4,1) infinite}.t{animation:up .8s ease both}@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<defs><linearGradient id="g03" x1="0" x2="1"><stop offset="0" stop-color="#3B82F6" stop-opacity="0"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="84" rx="10" fill="#0A0C10"/><g class="t"><text x="26" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#60A5FA" letter-spacing="1">03</text><text x="64" y="52" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="32" font-weight="600" fill="#F3F5F8" letter-spacing="-.5">Finance</text></g>
+<rect x="0" y="80" width="1200" height="1" fill="#222934"/><rect class="sc" x="0" y="79" width="240" height="3" fill="url(#g03)"/>
+</svg>
