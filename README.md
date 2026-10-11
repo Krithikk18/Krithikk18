@@ -65,4 +65,4 @@ A Streamlit app for equity research: LSTM price forecasts alongside FinBERT sent
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krithikkthilak)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Krithikk18)
 
-> *The difference between playing the stock market and the horses is that one of the horses must win." * — Joey Adams
+> *The difference between playing the stock market and the horses is that one of the horses must win. * —Joey Adams
