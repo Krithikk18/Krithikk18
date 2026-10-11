@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Animated finance panel: candlestick price chart with volume and moving average, and a rolling volatility series with a mean-reverting forecast">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390" role="img" aria-label="Animated finance panel: candlestick price chart with volume and moving average, and a rolling volatility series with a mean-reverting forecast">
 <style>
-.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}.s{font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif}
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}.s{font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif}.f{font-family:'Cambria Math', 'STIX Two Math', Cambria, Georgia, 'Times New Roman', serif}
 @keyframes cd{0%,3%{transform:scaleY(0);opacity:0}8%,88%{transform:scaleY(1);opacity:1}95%,100%{transform:scaleY(0);opacity:0}}
 @keyframes vb{0%,3%{transform:scaleY(0)}8%,88%{transform:scaleY(1)}95%,100%{transform:scaleY(0)}}
 @keyframes dr{0%,10%{stroke-dashoffset:1600}60%,88%{stroke-dashoffset:0}96%,100%{stroke-dashoffset:1600}}
@@ -12,8 +12,8 @@
 .fc{animation:fc 10s ease infinite}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}
 </style>
-<defs><clipPath id="fr"><rect width="1200" height="360" rx="12"/></clipPath></defs>
-<g clip-path="url(#fr)"><rect width="1200" height="360" fill="#0A0C10"/>
+<defs><clipPath id="fr"><rect width="1200" height="390" rx="12"/></clipPath></defs>
+<g clip-path="url(#fr)"><rect width="1200" height="390" fill="#0A0C10"/>
 <text class="m" x="40" y="40" font-size="11" fill="#8B95A5" letter-spacing="1.6"><tspan fill="#60A5FA">MARKETS</tspan>  price · volume · moving average</text>
 <path d="M40 72H810M40 154H810M40 236H810" stroke="#161B22"/>
 <g class="cd d" style="animation-delay:0.20s"><path d="M44.5 93V123"/><rect x="40" y="94" width="9" height="25"/></g>
@@ -120,7 +120,9 @@
 <path class="fc" d="M870 250L870 102L875 134L880 148L884 151L889 140L894 150L899 152L903 141L908 147L913 152L918 164L922 164L927 166L932 165L937 179L941 163L946 156L951 168L956 166L960 161L965 139L970 140L975 140L979 142L984 138L989 147L994 152L998 155L1003 155L1008 158L1013 186L1017 188L1022 189L1027 192L1032 199L1036 205L1041 211L1046 210L1051 216L1055 219L1060 217L1065 200L1070 200L1074 193L1079 182L1084 183L1089 182L1093 182L1093 250Z" fill="#3B82F6" fill-opacity=".12"/>
 <path class="dr" d="M870 102L875 134L880 148L884 151L889 140L894 150L899 152L903 141L908 147L913 152L918 164L922 164L927 166L932 165L937 179L941 163L946 156L951 168L956 166L960 161L965 139L970 140L975 140L979 142L984 138L989 147L994 152L998 155L1003 155L1008 158L1013 186L1017 188L1022 189L1027 192L1032 199L1036 205L1041 211L1046 210L1051 216L1055 219L1060 217L1065 200L1070 200L1074 193L1079 182L1084 183L1089 182L1093 182" fill="none" stroke="#60A5FA" stroke-width="1.8"/>
 <g class="fc"><path d="M1093 182L1098 180L1103 178L1108 177L1112 176L1117 175L1122 174L1127 173L1131 173L1136 172L1141 172L1146 171L1150 171L1155 171L1160 170" fill="none" stroke="#C9D1DB" stroke-width="1.6" stroke-dasharray="3 4"/><line x1="1093" y1="80" x2="1093" y2="250" stroke="#4B5563" stroke-dasharray="2 4"/><text class="m" x="1097" y="90" font-size="10" fill="#8B95A5">forecast →</text></g>
-<text class="m" x="870" y="272" font-size="11" fill="#8B95A5">volatility clusters, then mean-reverts</text>
-<text class="m" x="1160" y="340" font-size="10" fill="#5B6574" text-anchor="end">synthetic series · illustrative</text>
-<rect x=".5" y=".5" width="1199" height="359" rx="12" fill="none" stroke="#222934"/></g>
+<text class="f" x="870" y="282" font-size="15" fill="#C9D1DB" font-style="italic" xml:space="preserve"><tspan>σ²</tspan><tspan dy="4.8" font-size="10.2">t</tspan><tspan dy="-4.8"> = ω + α·ε²</tspan><tspan dy="4.8" font-size="10.2">t−1</tspan><tspan dy="-4.8"> + β·σ²</tspan><tspan dy="4.8" font-size="10.2">t−1</tspan><tspan dy="-4.8"> </tspan></text>
+<text class="m" x="870" y="304" font-size="11" fill="#8B95A5">volatility clusters, then mean-reverts</text>
+<text class="f" x="40" y="372" font-size="15" fill="#C9D1DB" font-style="italic" xml:space="preserve"><tspan>r</tspan><tspan dy="4.8" font-size="10.2">t</tspan><tspan dy="-4.8"> = ln(P</tspan><tspan dy="4.8" font-size="10.2">t</tspan><tspan dy="-4.8"> / P</tspan><tspan dy="4.8" font-size="10.2">t−1</tspan><tspan dy="-4.8">)        MA</tspan><tspan dy="4.8" font-size="10.2">10</tspan><tspan dy="-4.8">(t) = (1/10) Σ</tspan><tspan dy="4.8" font-size="10.2">k=0</tspan><tspan dy="-11.1" font-size="10.2">9</tspan><tspan dy="6.3"> P</tspan><tspan dy="4.8" font-size="10.2">t−k</tspan><tspan dy="-4.8"> </tspan></text>
+<text class="m" x="1160" y="374" font-size="10" fill="#5B6574" text-anchor="end">synthetic series · illustrative</text>
+<rect x=".5" y=".5" width="1199" height="389" rx="12" fill="none" stroke="#222934"/></g>
 </svg>
