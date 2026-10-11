@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 48" width="1200" height="48" role="img" aria-label="Ticker: volatility models, loss functions and stocks studied">
+<style>
+@keyframes m{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.m{transform-box:fill-box;animation:m 40s linear infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style>
+<rect width="1200" height="48" rx="6" fill="#F5A524"/>
+<g class="m"><text y="30" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#0A0D0B" xml:space="preserve"><tspan x="0">HDFCBANK     ◆     σ²ₜ = ω + αε²ₜ₋₁ + βσ²ₜ₋₁     ◆     RELIANCE     ◆     GJR-GARCH     ◆     INFY     ◆     QLIKE     ◆     DIEBOLD–MARIANO     ◆     LSTM     ◆     WALK-FORWARD     ◆     dS = μS dt + σS dW     ◆     NO LOOK-AHEAD     ◆     RISK-NEUTRAL     ◆     HDFCBANK     ◆     σ²ₜ = ω + αε²ₜ₋₁ + βσ²ₜ₋₁     ◆     RELIANCE     ◆     GJR-GARCH     ◆     INFY     ◆     QLIKE     ◆     DIEBOLD–MARIANO     ◆     LSTM     ◆     WALK-FORWARD     ◆     dS = μS dt + σS dW     ◆     NO LOOK-AHEAD     ◆     RISK-NEUTRAL     ◆     </tspan></text></g>
+</svg>

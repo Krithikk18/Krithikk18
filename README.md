@@ -1,12 +1,14 @@
-# Hi, I'm Krithikk 👋
+<a href="https://claude.ai/artifact/Hza4orUi9ChT762MpRuPvj"><img src="assets/header.svg" width="100%" alt="Hi, I'm Krithikk — CS undergrad at Amrita University, Coimbatore, building toward quantitative finance"></a>
 
-**CS undergrad at Amrita University, Coimbatore · building toward quantitative finance**
+<img src="assets/ticker.svg" width="100%" alt="Volatility models, loss functions and stocks studied">
+
+<p align="center">
+<a href="https://claude.ai/artifact/Hza4orUi9ChT762MpRuPvj"><b>▶ Live interactive portfolio</b></a> · includes a working Black-Scholes pricer with Greeks
+</p>
 
 I work where markets, probability and code meet: volatility modelling, derivatives pricing, and machine learning on noisy financial time series.
 
----
-
-## 📊 Quant & Finance Projects
+<img src="assets/sec-quant.svg" width="100%" alt="01 Quant & Finance">
 
 ### [VMarket](https://github.com/Krithikk18/VMarket): Volatility Forecasting on NSE Large-Caps
 Forecasting daily volatility for **HDFCBANK, RELIANCE and INFY (2015–2024)**.
@@ -23,9 +25,7 @@ Deriving and implementing Black-Scholes from first principles: no-arbitrage, rep
 - Planned: Greeks, implied volatility solver, Monte Carlo and binomial-tree comparison
 - 🔄 *In progress*
 
----
-
-## 🤖 Machine Learning & Systems
+<img src="assets/sec-ml.svg" width="100%" alt="02 Machine Learning & Systems">
 
 ### Explainable IoT Intrusion Detection
 Hardware-aware anomaly detection for home and IoT networks.
@@ -36,33 +36,25 @@ Hardware-aware anomaly detection for home and IoT networks.
 ### Operations Dashboard
 Full-stack dashboard for a real oil-products business, built with React, Vite and Supabase.
 
----
+<img src="assets/sec-stack.svg" width="100%" alt="03 Stack & Learning">
 
-## 🛠️ Tech Stack
-
-**Languages:** Python · C++ · SQL · JavaScript
-**Quant & Data:** NumPy · Pandas · SciPy · statsmodels · arch · scikit-learn
-**ML:** PyTorch · SHAP
+**Languages:** Python · C++ · SQL · JavaScript  
+**Quant & Data:** NumPy · Pandas · SciPy · statsmodels · arch · scikit-learn  
+**ML:** PyTorch · SHAP  
 **Tools:** Jupyter · Git · React · Supabase
 
----
-
-## 🧠 Currently Learning
+**Currently learning**
 - Probability & combinatorics (Harvard Stats 110, brain teasers)
 - Time-series econometrics & volatility modelling
 - Stochastic calculus basics for options pricing
 - Data structures & algorithms in C++
 - Mental math speed (Zetamac)
 
-## 🌐 Interests
-Indian macroeconomics · public finance · how markets price risk
+**Interests:** Indian macroeconomics · public finance · how markets price risk
 
----
+<img src="assets/sec-contact.svg" width="100%" alt="04 Reach Me">
 
-## 📫 Reach Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krithikkthilak)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Krithikk18)
-
----
 
 > *"In God we trust. All others must bring data."* (W. Edwards Deming)
