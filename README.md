@@ -1,65 +1,68 @@
-<a href="https://claude.ai/artifact/Hza4orUi9ChT762MpRuPvj"><img src="assets/header.svg" width="100%" alt="Hi, I'm Krithikk — CS undergrad at Amrita University, Coimbatore, building toward quantitative finance"></a>
+<a href="https://claude.ai/artifact/Hza4orUi9ChT762MpRuPvj"><img src="assets/header.svg" width="100%" alt="Krithikk — CS undergrad in Cyber Security at Amrita, Coimbatore. Machine learning, intrusion detection and finance."></a>
 
-<img src="assets/ticker.svg" width="100%" alt="Volatility models, loss functions and stocks studied">
+<img src="assets/ticker.svg" width="100%" alt="Tools and datasets I work with">
 
-I work where markets, probability and code meet: volatility modelling, derivatives pricing, and machine learning on noisy financial time series.
+I'm a computer science undergrad specialising in cyber security at Amrita Vishwa Vidyapeetham, Coimbatore. I build software where machine learning meets real systems: catching intrusions on home and IoT networks, and making sense of financial markets.
 
-<img src="assets/pipeline.svg" width="100%" alt="Animated pipeline: tick data flows into a neural network forward pass and out as a volatility forecast cone">
+<img src="assets/sec-ids.svg" width="100%" alt="01 Intrusion Detection">
 
-<p align="center"><a href="https://claude.ai/artifact/Hza4orUi9ChT762MpRuPvj"><b>▶ Full animated portfolio</b></a></p>
+<img src="assets/ids.svg" width="100%" alt="Animated IDS: IoT devices send traffic through a gateway IDS; a compromised camera triggers an anomaly spike and an alert">
 
-<img src="assets/sec-quant.svg" width="100%" alt="01 Quant & Finance">
+### [Explainable intrusion detection — paper replication](https://github.com/Krithikk18/XAI_Result_replication)
+Full replication of *Explainable AI and Random Forest Based Reliable Intrusion Detection System* on CSE-CIC-IDS2018.
+- Seven-stage pipeline: preprocessing → Random Forest → secondary classifiers → SHAP (TreeExplainer) → CAM → clean evaluation → HopSkipJump adversarial testing
+- 99.96% Random Forest accuracy, with a written account of where results diverged from the paper and why
+- Built to fit a 4 GB laptop GPU: stratified sampling, and a scikit-learn fallback when cuML ran out of memory
 
-### [VMarket](https://github.com/Krithikk18/VMarket): Volatility Forecasting on NSE Large-Caps
-Forecasting daily volatility for **HDFCBANK, RELIANCE and INFY (2015–2024)**.
-- Benchmarks **GARCH, GARCH-t and GJR-GARCH** against **LSTM** and ensemble models
-- Evaluated with **MSE, MAE and QLIKE**, with **Diebold-Mariano tests** for statistical significance
-- Walk-forward, out-of-sample evaluation (no look-ahead bias)
-- 🔄 *Currently rebuilding every notebook from scratch for full reproducibility*
+### IoT intrusion detection research
+Lightweight, explainable anomaly detection for smart-home networks.
+- Separate models sized for each device class, from microcontroller sensors to the home gateway
+- Explainability and adversarial robustness treated as requirements, not extras
+- Datasets: N-BaIoT · IoT-23 · UNSW-NB15
 
-<!-- Once you have results, replace the line above with something like:
-**Key result:** GJR-GARCH beat LSTM on QLIKE for 2 of 3 stocks (DM test, p < 0.05) -->
+<img src="assets/sec-ml.svg" width="100%" alt="02 Machine Learning">
 
-### Black-Scholes, from first principles
-Working through the derivation: no-arbitrage, replication, risk-neutral pricing.
-- Next: Greeks and an implied volatility solver
-- Then: Monte Carlo vs binomial-tree comparison
-- 🔄 *In progress*
+<img src="assets/ml.svg" width="100%" alt="Animated ML panel: neural network forward pass, SHAP attributions, and models sized per device tier">
 
-<img src="assets/volsurface.svg" width="100%" alt="Animated implied volatility surface morphing between calm and stressed regimes">
+### [HW-NAS Demo](https://github.com/Krithikk18/HW-NAS_Demo): hardware-aware neural architecture search
+A DARTS-style supernet that searches for an intrusion-detection model small enough for the device it runs on.
+- Bilevel optimisation: weights learn on training data, architecture learns on validation data plus a hardware penalty (parameters and FLOPs)
+- Three device tiers, from microcontroller to gateway, each with its own budget
+- Derives a plain PyTorch model from the searched cells, ready to deploy
 
-<img src="assets/sec-ml.svg" width="100%" alt="02 Machine Learning & Systems">
+### [ML Notebooks](https://github.com/Krithikk18/ML_Notebooks)
+Machine learning fundamentals, worked through from scratch.
 
-### Explainable IoT Intrusion Detection
-Hardware-aware anomaly detection for home and IoT networks.
-- **Hardware-aware NAS** producing compressed models per device tier
-- **SHAP** explainability and **adversarial robustness** testing
-- Datasets: N-BaIoT, IoT-23, UNSW-NB15
+<img src="assets/sec-finance.svg" width="100%" alt="03 Finance">
 
-### Operations Dashboard
-Full-stack dashboard for a real oil-products business, built with React, Vite and Supabase.
+<img src="assets/finance.svg" width="100%" alt="Animated finance panel: candlesticks with volume and a moving average, and rolling volatility with a forecast">
 
-<img src="assets/compute.svg" width="100%" alt="Animated compute panel: tiled matrix multiply, kernel occupancy and training loss curves">
+### [VMarket](https://github.com/Krithikk18/VMarket): volatility forecasting
+- GARCH-family models benchmarked against LSTM, with FinBERT news sentiment as an extra signal
+- Walk-forward, out-of-sample evaluation with no look-ahead; scored on MSE, MAE and QLIKE with Diebold-Mariano tests
+- 🔄 Now extending to Indian large-caps (HDFCBANK, RELIANCE, INFY), rebuilt for full reproducibility
 
-<img src="assets/sec-stack.svg" width="100%" alt="03 Stack & Learning">
+### [Mandate Retry Sequencer](https://github.com/Krithikk18/mandate-retry-sequencer) · Razorpay AI Buildathon
+A cost-aware retry policy for failed recurring payments on Indian e-mandates.
+- Prices every possible retry date in rupees: expected recovery minus fees, bounce charges and the risk of losing the customer
+- Works within NPCI rules: 24-hour pre-debit notice, four attempts per cycle, 00:00–07:00 IST window
+- In simulation, lifts recovery from ~32% (fixed schedule) to ~57%; 298 tests passing
 
-**Languages:** Python · C++ · SQL · JavaScript  
-**Quant & Data:** NumPy · Pandas · SciPy · statsmodels · arch · scikit-learn  
-**ML:** PyTorch · SHAP  
-**Tools:** Jupyter · Git · React · Supabase
+### [MarketPulse](https://github.com/Krithikk18/MarketPulse)
+A Streamlit app for equity research: LSTM price forecasts alongside FinBERT sentiment.
 
-**Currently learning**
-- Probability & combinatorics (Harvard Stats 110, brain teasers)
-- Time-series econometrics & volatility modelling
-- Stochastic calculus basics for options pricing
-- Data structures & algorithms in C++
-- Mental math speed (Zetamac)
+<img src="assets/sec-stack.svg" width="100%" alt="04 Stack & Learning">
 
+**Languages:** Python · C++ · SQL · TypeScript / JavaScript  
+**ML & data:** PyTorch · scikit-learn · SHAP · NumPy · Pandas · statsmodels · arch  
+**Web & tools:** React · Supabase · Streamlit · Git · Jupyter · WSL2
+
+**Currently learning:** probability (Harvard Stats 110) · time-series econometrics · data structures & algorithms in C++ · options pricing basics  
 **Interests:** Indian macroeconomics · public finance · how markets price risk
 
-<img src="assets/sec-contact.svg" width="100%" alt="04 Reach Me">
+<img src="assets/sec-contact.svg" width="100%" alt="05 Reach Me">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krithikkthilak)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Krithikk18)
 
-> *"The difference between playing the stock market and the horses is that one of the horses must win."* (Joey Adams)
+> *"In God we trust. All others must bring data."* (W. Edwards Deming)

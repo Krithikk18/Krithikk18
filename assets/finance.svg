@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Animated finance panel: candlestick price chart with volume and moving average, and a rolling volatility series with a mean-reverting forecast">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}.s{font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif}
+@keyframes cd{0%,3%{transform:scaleY(0);opacity:0}8%,88%{transform:scaleY(1);opacity:1}95%,100%{transform:scaleY(0);opacity:0}}
+@keyframes vb{0%,3%{transform:scaleY(0)}8%,88%{transform:scaleY(1)}95%,100%{transform:scaleY(0)}}
+@keyframes dr{0%,10%{stroke-dashoffset:1600}60%,88%{stroke-dashoffset:0}96%,100%{stroke-dashoffset:1600}}
+@keyframes fc{0%,58%{opacity:0}66%,88%{opacity:1}95%,100%{opacity:0}}
+.u{fill:#3B82F6;stroke:#3B82F6}.d{fill:#4B5563;stroke:#4B5563}.cd rect{stroke:none}.vb{fill-opacity:.45;stroke:none}
+.cd{transform-box:fill-box;transform-origin:center;animation:cd 10s cubic-bezier(.2,.8,.2,1) infinite}
+.vb{transform-box:fill-box;transform-origin:bottom;animation:vb 10s cubic-bezier(.2,.8,.2,1) infinite}
+.dr{stroke-dasharray:1600;animation:dr 10s cubic-bezier(.4,0,.2,1) infinite}
+.fc{animation:fc 10s ease infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style>
+<defs><clipPath id="fr"><rect width="1200" height="360" rx="12"/></clipPath></defs>
+<g clip-path="url(#fr)"><rect width="1200" height="360" fill="#0A0C10"/>
+<text class="m" x="40" y="40" font-size="11" fill="#8B95A5" letter-spacing="1.6"><tspan fill="#60A5FA">MARKETS</tspan>  price · volume · moving average</text>
+<path d="M40 72H810M40 154H810M40 236H810" stroke="#161B22"/>
+<g class="cd d" style="animation-delay:0.20s"><path d="M44.5 93V123"/><rect x="40" y="94" width="9" height="25"/></g>
+<rect class="vb d" x="40" y="278" width="9" height="40" style="animation-delay:0.20s"/>
+<g class="cd d" style="animation-delay:0.29s"><path d="M60.5 112V132"/><rect x="56" y="120" width="9" height="12"/></g>
+<rect class="vb d" x="56" y="286" width="9" height="32" style="animation-delay:0.29s"/>
+<g class="cd d" style="animation-delay:0.38s"><path d="M76.5 131V152"/><rect x="72" y="132" width="9" height="11"/></g>
+<rect class="vb d" x="72" y="288" width="9" height="30" style="animation-delay:0.38s"/>
+<g class="cd d" style="animation-delay:0.47s"><path d="M92.5 137V160"/><rect x="88" y="142" width="9" height="15"/></g>
+<rect class="vb d" x="88" y="293" width="9" height="25" style="animation-delay:0.47s"/>
+<g class="cd d" style="animation-delay:0.56s"><path d="M108.5 153V183"/><rect x="104" y="157" width="9" height="24"/></g>
+<rect class="vb d" x="104" y="283" width="9" height="35" style="animation-delay:0.56s"/>
+<g class="cd u" style="animation-delay:0.65s"><path d="M124.5 169V190"/><rect x="120" y="180" width="9" height="2"/></g>
+<rect class="vb u" x="120" y="295" width="9" height="23" style="animation-delay:0.65s"/>
+<g class="cd d" style="animation-delay:0.74s"><path d="M140.5 174V194"/><rect x="136" y="180" width="9" height="13"/></g>
+<rect class="vb d" x="136" y="290" width="9" height="28" style="animation-delay:0.74s"/>
+<g class="cd u" style="animation-delay:0.83s"><path d="M156.5 164V193"/><rect x="152" y="166" width="9" height="26"/></g>
+<rect class="vb u" x="152" y="282" width="9" height="36" style="animation-delay:0.83s"/>
+<g class="cd d" style="animation-delay:0.92s"><path d="M172.5 154V176"/><rect x="168" y="166" width="9" height="4"/></g>
+<rect class="vb d" x="168" y="291" width="9" height="27" style="animation-delay:0.92s"/>
+<g class="cd d" style="animation-delay:1.01s"><path d="M188.5 168V174"/><rect x="184" y="171" width="9" height="2"/></g>
+<rect class="vb d" x="184" y="297" width="9" height="21" style="animation-delay:1.01s"/>
+<g class="cd d" style="animation-delay:1.10s"><path d="M204.5 163V175"/><rect x="200" y="171" width="9" height="2"/></g>
+<rect class="vb d" x="200" y="296" width="9" height="22" style="animation-delay:1.10s"/>
+<g class="cd u" style="animation-delay:1.19s"><path d="M220.5 151V174"/><rect x="216" y="160" width="9" height="13"/></g>
+<rect class="vb u" x="216" y="294" width="9" height="24" style="animation-delay:1.19s"/>
+<g class="cd u" style="animation-delay:1.28s"><path d="M236.5 152V160"/><rect x="232" y="156" width="9" height="4"/></g>
+<rect class="vb u" x="232" y="296" width="9" height="22" style="animation-delay:1.28s"/>
+<g class="cd d" style="animation-delay:1.37s"><path d="M252.5 147V171"/><rect x="248" y="156" width="9" height="15"/></g>
+<rect class="vb d" x="248" y="292" width="9" height="26" style="animation-delay:1.37s"/>
+<g class="cd d" style="animation-delay:1.46s"><path d="M268.5 158V177"/><rect x="264" y="170" width="9" height="4"/></g>
+<rect class="vb d" x="264" y="296" width="9" height="22" style="animation-delay:1.46s"/>
+<g class="cd d" style="animation-delay:1.55s"><path d="M284.5 172V206"/><rect x="280" y="174" width="9" height="26"/></g>
+<rect class="vb d" x="280" y="286" width="9" height="32" style="animation-delay:1.55s"/>
+<g class="cd d" style="animation-delay:1.64s"><path d="M300.5 195V222"/><rect x="296" y="200" width="9" height="21"/></g>
+<rect class="vb d" x="296" y="283" width="9" height="35" style="animation-delay:1.64s"/>
+<g class="cd u" style="animation-delay:1.73s"><path d="M316.5 204V236"/><rect x="312" y="209" width="9" height="12"/></g>
+<rect class="vb u" x="312" y="290" width="9" height="28" style="animation-delay:1.73s"/>
+<g class="cd u" style="animation-delay:1.82s"><path d="M332.5 196V212"/><rect x="328" y="199" width="9" height="10"/></g>
+<rect class="vb u" x="328" y="293" width="9" height="25" style="animation-delay:1.82s"/>
+<g class="cd u" style="animation-delay:1.91s"><path d="M348.5 177V204"/><rect x="344" y="184" width="9" height="15"/></g>
+<rect class="vb u" x="344" y="286" width="9" height="32" style="animation-delay:1.91s"/>
+<g class="cd u" style="animation-delay:2.00s"><path d="M364.5 150V184"/><rect x="360" y="151" width="9" height="33"/></g>
+<rect class="vb u" x="360" y="272" width="9" height="46" style="animation-delay:2.00s"/>
+<g class="cd u" style="animation-delay:2.09s"><path d="M380.5 135V169"/><rect x="376" y="140" width="9" height="10"/></g>
+<rect class="vb u" x="376" y="288" width="9" height="30" style="animation-delay:2.09s"/>
+<g class="cd d" style="animation-delay:2.18s"><path d="M396.5 139V151"/><rect x="392" y="140" width="9" height="7"/></g>
+<rect class="vb d" x="392" y="296" width="9" height="22" style="animation-delay:2.18s"/>
+<g class="cd u" style="animation-delay:2.27s"><path d="M412.5 137V158"/><rect x="408" y="137" width="9" height="10"/></g>
+<rect class="vb u" x="408" y="290" width="9" height="28" style="animation-delay:2.27s"/>
+<g class="cd d" style="animation-delay:2.36s"><path d="M428.5 135V153"/><rect x="424" y="137" width="9" height="16"/></g>
+<rect class="vb d" x="424" y="288" width="9" height="30" style="animation-delay:2.36s"/>
+<g class="cd u" style="animation-delay:2.45s"><path d="M444.5 130V155"/><rect x="440" y="139" width="9" height="13"/></g>
+<rect class="vb u" x="440" y="292" width="9" height="26" style="animation-delay:2.45s"/>
+<g class="cd u" style="animation-delay:2.54s"><path d="M460.5 123V144"/><rect x="456" y="124" width="9" height="15"/></g>
+<rect class="vb u" x="456" y="289" width="9" height="29" style="animation-delay:2.54s"/>
+<g class="cd d" style="animation-delay:2.63s"><path d="M476.5 118V125"/><rect x="472" y="124" width="9" height="2"/></g>
+<rect class="vb d" x="472" y="296" width="9" height="22" style="animation-delay:2.63s"/>
+<g class="cd u" style="animation-delay:2.72s"><path d="M492.5 109V127"/><rect x="488" y="113" width="9" height="12"/></g>
+<rect class="vb u" x="488" y="295" width="9" height="23" style="animation-delay:2.72s"/>
+<g class="cd d" style="animation-delay:2.81s"><path d="M508.5 103V126"/><rect x="504" y="113" width="9" height="8"/></g>
+<rect class="vb d" x="504" y="295" width="9" height="23" style="animation-delay:2.81s"/>
+<g class="cd d" style="animation-delay:2.90s"><path d="M524.5 119V137"/><rect x="520" y="121" width="9" height="3"/></g>
+<rect class="vb d" x="520" y="297" width="9" height="21" style="animation-delay:2.90s"/>
+<g class="cd u" style="animation-delay:2.99s"><path d="M540.5 109V124"/><rect x="536" y="118" width="9" height="6"/></g>
+<rect class="vb u" x="536" y="292" width="9" height="26" style="animation-delay:2.99s"/>
+<g class="cd d" style="animation-delay:3.08s"><path d="M556.5 111V127"/><rect x="552" y="118" width="9" height="2"/></g>
+<rect class="vb d" x="552" y="293" width="9" height="25" style="animation-delay:3.08s"/>
+<g class="cd u" style="animation-delay:3.17s"><path d="M572.5 109V120"/><rect x="568" y="113" width="9" height="6"/></g>
+<rect class="vb u" x="568" y="298" width="9" height="20" style="animation-delay:3.17s"/>
+<g class="cd d" style="animation-delay:3.26s"><path d="M588.5 113V122"/><rect x="584" y="113" width="9" height="3"/></g>
+<rect class="vb d" x="584" y="294" width="9" height="24" style="animation-delay:3.26s"/>
+<g class="cd u" style="animation-delay:3.35s"><path d="M604.5 109V124"/><rect x="600" y="112" width="9" height="5"/></g>
+<rect class="vb u" x="600" y="295" width="9" height="23" style="animation-delay:3.35s"/>
+<g class="cd u" style="animation-delay:3.44s"><path d="M620.5 101V112"/><rect x="616" y="103" width="9" height="9"/></g>
+<rect class="vb u" x="616" y="291" width="9" height="27" style="animation-delay:3.44s"/>
+<g class="cd d" style="animation-delay:3.53s"><path d="M636.5 102V113"/><rect x="632" y="103" width="9" height="4"/></g>
+<rect class="vb d" x="632" y="300" width="9" height="18" style="animation-delay:3.53s"/>
+<g class="cd d" style="animation-delay:3.62s"><path d="M652.5 105V117"/><rect x="648" y="107" width="9" height="7"/></g>
+<rect class="vb d" x="648" y="297" width="9" height="21" style="animation-delay:3.62s"/>
+<g class="cd u" style="animation-delay:3.71s"><path d="M668.5 107V117"/><rect x="664" y="110" width="9" height="3"/></g>
+<rect class="vb u" x="664" y="296" width="9" height="22" style="animation-delay:3.71s"/>
+<g class="cd d" style="animation-delay:3.80s"><path d="M684.5 102V119"/><rect x="680" y="110" width="9" height="6"/></g>
+<rect class="vb d" x="680" y="294" width="9" height="24" style="animation-delay:3.80s"/>
+<g class="cd u" style="animation-delay:3.89s"><path d="M700.5 95V118"/><rect x="696" y="96" width="9" height="21"/></g>
+<rect class="vb u" x="696" y="288" width="9" height="30" style="animation-delay:3.89s"/>
+<g class="cd u" style="animation-delay:3.98s"><path d="M716.5 89V99"/><rect x="712" y="95" width="9" height="2"/></g>
+<rect class="vb u" x="712" y="301" width="9" height="17" style="animation-delay:3.98s"/>
+<g class="cd d" style="animation-delay:4.07s"><path d="M732.5 92V114"/><rect x="728" y="95" width="9" height="17"/></g>
+<rect class="vb d" x="728" y="287" width="9" height="31" style="animation-delay:4.07s"/>
+<g class="cd u" style="animation-delay:4.16s"><path d="M748.5 91V115"/><rect x="744" y="92" width="9" height="19"/></g>
+<rect class="vb u" x="744" y="281" width="9" height="37" style="animation-delay:4.16s"/>
+<g class="cd u" style="animation-delay:4.25s"><path d="M764.5 83V98"/><rect x="760" y="88" width="9" height="5"/></g>
+<rect class="vb u" x="760" y="293" width="9" height="25" style="animation-delay:4.25s"/>
+<g class="cd u" style="animation-delay:4.34s"><path d="M780.5 73V90"/><rect x="776" y="77" width="9" height="11"/></g>
+<rect class="vb u" x="776" y="287" width="9" height="31" style="animation-delay:4.34s"/>
+<g class="cd u" style="animation-delay:4.43s"><path d="M796.5 72V86"/><rect x="792" y="74" width="9" height="3"/></g>
+<rect class="vb u" x="792" y="301" width="9" height="17" style="animation-delay:4.43s"/>
+<path class="dr" d="M44 120L60 126L76 131L92 138L108 146L124 152L140 158L156 159L172 160L188 161L204 167L220 169L236 171L252 172L268 171L284 173L300 176L316 180L332 183L348 185L364 182L380 180L396 180L412 176L428 174L444 168L460 158L476 150L492 141L508 135L524 132L540 130L556 127L572 125L588 121L604 118L620 116L636 114L652 115L668 114L684 113L700 111L716 108L732 108L748 106L764 103L780 101L796 97" fill="none" stroke="#BFDBFE" stroke-width="1.6"/>
+<line x1="40" y1="319" x2="820" y2="319" stroke="#222934"/><text class="m" x="40" y="340" font-size="10" fill="#5B6574">volume</text>
+<rect x="700" y="28" width="12" height="2" fill="#BFDBFE"/><text class="m" x="718" y="33" font-size="10" fill="#8B95A5">10-day MA</text>
+<text class="m" x="870" y="40" font-size="11" fill="#8B95A5" letter-spacing="1.6"><tspan fill="#60A5FA">VOLATILITY</tspan>  rolling σ + forecast</text>
+<path d="M870 250H1160M870 165H1160M870 80H1160" stroke="#161B22"/>
+<path class="fc" d="M870 250L870 102L875 134L880 148L884 151L889 140L894 150L899 152L903 141L908 147L913 152L918 164L922 164L927 166L932 165L937 179L941 163L946 156L951 168L956 166L960 161L965 139L970 140L975 140L979 142L984 138L989 147L994 152L998 155L1003 155L1008 158L1013 186L1017 188L1022 189L1027 192L1032 199L1036 205L1041 211L1046 210L1051 216L1055 219L1060 217L1065 200L1070 200L1074 193L1079 182L1084 183L1089 182L1093 182L1093 250Z" fill="#3B82F6" fill-opacity=".12"/>
+<path class="dr" d="M870 102L875 134L880 148L884 151L889 140L894 150L899 152L903 141L908 147L913 152L918 164L922 164L927 166L932 165L937 179L941 163L946 156L951 168L956 166L960 161L965 139L970 140L975 140L979 142L984 138L989 147L994 152L998 155L1003 155L1008 158L1013 186L1017 188L1022 189L1027 192L1032 199L1036 205L1041 211L1046 210L1051 216L1055 219L1060 217L1065 200L1070 200L1074 193L1079 182L1084 183L1089 182L1093 182" fill="none" stroke="#60A5FA" stroke-width="1.8"/>
+<g class="fc"><path d="M1093 182L1098 180L1103 178L1108 177L1112 176L1117 175L1122 174L1127 173L1131 173L1136 172L1141 172L1146 171L1150 171L1155 171L1160 170" fill="none" stroke="#C9D1DB" stroke-width="1.6" stroke-dasharray="3 4"/><line x1="1093" y1="80" x2="1093" y2="250" stroke="#4B5563" stroke-dasharray="2 4"/><text class="m" x="1097" y="90" font-size="10" fill="#8B95A5">forecast →</text></g>
+<text class="m" x="870" y="272" font-size="11" fill="#8B95A5">volatility clusters, then mean-reverts</text>
+<text class="m" x="1160" y="340" font-size="10" fill="#5B6574" text-anchor="end">synthetic series · illustrative</text>
+<rect x=".5" y=".5" width="1199" height="359" rx="12" fill="none" stroke="#222934"/></g>
+</svg>

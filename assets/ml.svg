@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Animated machine learning panel: neural network forward pass on flow features, SHAP-style feature attributions, and hardware-aware model sizing per device tier">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}.s{font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif}
+@keyframes sig{0%{stroke-dashoffset:200;opacity:0}6%{opacity:1}30%{stroke-dashoffset:0;opacity:1}38%,100%{opacity:0;stroke-dashoffset:0}}
+@keyframes fire{0%,100%{fill:#10141A}8%{fill:#3B82F6}22%{fill:#10141A}}
+@keyframes bx{0%,8%{transform:scaleX(0)}22%,82%{transform:scaleX(1)}94%,100%{transform:scaleX(0)}}
+@keyframes nas{0%,10%{transform:scaleX(1.35)}45%,85%{transform:scaleX(1)}95%,100%{transform:scaleX(1.35)}}
+@keyframes ok{0%,45%{opacity:0}52%,85%{opacity:1}92%,100%{opacity:0}}
+.b{stroke:#60A5FA}.k{stroke:#BFDBFE}
+.sg{stroke-width:1.8;stroke-dasharray:18 200;animation:sig 3s cubic-bezier(.5,0,.5,1) infinite}
+.nd{fill:#10141A;stroke:#4B5563;stroke-width:1.2;animation:fire 3s ease-out infinite}
+.bx{transform-box:fill-box;animation:bx 8s cubic-bezier(.2,.8,.2,1) infinite}
+.nb{transform-box:fill-box;transform-origin:left;animation:nas 8s cubic-bezier(.4,0,.2,1) infinite}
+.ok{animation:ok 8s ease infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style>
+<defs><clipPath id="fr"><rect width="1200" height="360" rx="12"/></clipPath></defs>
+<g clip-path="url(#fr)"><rect width="1200" height="360" fill="#0A0C10"/>
+<text class="m" x="30" y="40" font-size="11" fill="#8B95A5" letter-spacing="1.6"><tspan fill="#60A5FA">MODEL</tspan>  forward pass</text>
+<path d="M70 75L170 75M70 75L170 104M70 75L170 132M70 75L170 161M70 75L170 190M70 75L170 219M70 75L170 248M70 75L170 276M70 75L170 305M70 121L170 75M70 121L170 104M70 121L170 132M70 121L170 161M70 121L170 190M70 121L170 219M70 121L170 248M70 121L170 276M70 121L170 305M70 167L170 75M70 167L170 104M70 167L170 132M70 167L170 161M70 167L170 190M70 167L170 219M70 167L170 248M70 167L170 276M70 167L170 305M70 213L170 75M70 213L170 104M70 213L170 132M70 213L170 161M70 213L170 190M70 213L170 219M70 213L170 248M70 213L170 276M70 213L170 305M70 259L170 75M70 259L170 104M70 259L170 132M70 259L170 161M70 259L170 190M70 259L170 219M70 259L170 248M70 259L170 276M70 259L170 305M70 305L170 75M70 305L170 104M70 305L170 132M70 305L170 161M70 305L170 190M70 305L170 219M70 305L170 248M70 305L170 276M70 305L170 305M170 75L270 75M170 75L270 104M170 75L270 132M170 75L270 161M170 75L270 190M170 75L270 219M170 75L270 248M170 75L270 276M170 75L270 305M170 104L270 75M170 104L270 104M170 104L270 132M170 104L270 161M170 104L270 190M170 104L270 219M170 104L270 248M170 104L270 276M170 104L270 305M170 132L270 75M170 132L270 104M170 132L270 132M170 132L270 161M170 132L270 190M170 132L270 219M170 132L270 248M170 132L270 276M170 132L270 305M170 161L270 75M170 161L270 104M170 161L270 132M170 161L270 161M170 161L270 190M170 161L270 219M170 161L270 248M170 161L270 276M170 161L270 305M170 190L270 75M170 190L270 104M170 190L270 132M170 190L270 161M170 190L270 190M170 190L270 219M170 190L270 248M170 190L270 276M170 190L270 305M170 219L270 75M170 219L270 104M170 219L270 132M170 219L270 161M170 219L270 190M170 219L270 219M170 219L270 248M170 219L270 276M170 219L270 305M170 248L270 75M170 248L270 104M170 248L270 132M170 248L270 161M170 248L270 190M170 248L270 219M170 248L270 248M170 248L270 276M170 248L270 305M170 276L270 75M170 276L270 104M170 276L270 132M170 276L270 161M170 276L270 190M170 276L270 219M170 276L270 248M170 276L270 276M170 276L270 305M170 305L270 75M170 305L270 104M170 305L270 132M170 305L270 161M170 305L270 190M170 305L270 219M170 305L270 248M170 305L270 276M170 305L270 305M270 75L370 75M270 75L370 132M270 75L370 190M270 75L370 248M270 75L370 305M270 104L370 75M270 104L370 132M270 104L370 190M270 104L370 248M270 104L370 305M270 132L370 75M270 132L370 132M270 132L370 190M270 132L370 248M270 132L370 305M270 161L370 75M270 161L370 132M270 161L370 190M270 161L370 248M270 161L370 305M270 190L370 75M270 190L370 132M270 190L370 190M270 190L370 248M270 190L370 305M270 219L370 75M270 219L370 132M270 219L370 190M270 219L370 248M270 219L370 305M270 248L370 75M270 248L370 132M270 248L370 190M270 248L370 248M270 248L370 305M270 276L370 75M270 276L370 132M270 276L370 190M270 276L370 248M270 276L370 305M270 305L370 75M270 305L370 132M270 305L370 190M270 305L370 248M270 305L370 305M370 75L470 145M370 75L470 235M370 132L470 145M370 132L470 235M370 190L470 145M370 190L470 235M370 248L470 145M370 248L470 235M370 305L470 145M370 305L470 235" stroke="#161B22" stroke-width="1"/><path class="sg b" d="M70 75L170 248" style="animation-delay:0.1s"/><path class="sg b" d="M70 75L170 305" style="animation-delay:0.0s"/><path class="sg k" d="M70 121L170 132" style="animation-delay:0.1s"/><path class="sg b" d="M70 121L170 219" style="animation-delay:0.0s"/><path class="sg b" d="M70 121L170 248" style="animation-delay:0.0s"/><path class="sg b" d="M70 121L170 276" style="animation-delay:0.1s"/><path class="sg b" d="M70 213L170 132" style="animation-delay:0.0s"/><path class="sg k" d="M70 259L170 75" style="animation-delay:0.0s"/><path class="sg k" d="M70 259L170 190" style="animation-delay:0.1s"/><path class="sg k" d="M70 259L170 248" style="animation-delay:0.0s"/><path class="sg b" d="M70 259L170 305" style="animation-delay:0.0s"/><path class="sg b" d="M70 305L170 75" style="animation-delay:0.1s"/><path class="sg b" d="M70 305L170 161" style="animation-delay:0.1s"/><path class="sg b" d="M70 305L170 219" style="animation-delay:0.1s"/><path class="sg k" d="M170 75L270 132" style="animation-delay:0.7s"/><path class="sg b" d="M170 75L270 190" style="animation-delay:0.7s"/><path class="sg b" d="M170 75L270 219" style="animation-delay:0.7s"/><path class="sg b" d="M170 75L270 276" style="animation-delay:0.6s"/><path class="sg b" d="M170 75L270 305" style="animation-delay:0.7s"/><path class="sg k" d="M170 104L270 219" style="animation-delay:0.6s"/><path class="sg b" d="M170 104L270 276" style="animation-delay:0.6s"/><path class="sg k" d="M170 132L270 75" style="animation-delay:0.7s"/><path class="sg k" d="M170 132L270 161" style="animation-delay:0.6s"/><path class="sg b" d="M170 132L270 190" style="animation-delay:0.7s"/><path class="sg b" d="M170 132L270 305" style="animation-delay:0.7s"/><path class="sg k" d="M170 161L270 75" style="animation-delay:0.7s"/><path class="sg b" d="M170 161L270 190" style="animation-delay:0.6s"/><path class="sg b" d="M170 161L270 248" style="animation-delay:0.6s"/><path class="sg k" d="M170 161L270 305" style="animation-delay:0.7s"/><path class="sg b" d="M170 190L270 190" style="animation-delay:0.6s"/><path class="sg b" d="M170 190L270 305" style="animation-delay:0.7s"/><path class="sg b" d="M170 219L270 161" style="animation-delay:0.7s"/><path class="sg k" d="M170 276L270 161" style="animation-delay:0.7s"/><path class="sg b" d="M170 305L270 132" style="animation-delay:0.7s"/><path class="sg b" d="M170 305L270 219" style="animation-delay:0.7s"/><path class="sg b" d="M170 305L270 305" style="animation-delay:0.6s"/><path class="sg k" d="M270 75L370 132" style="animation-delay:1.3s"/><path class="sg k" d="M270 104L370 190" style="animation-delay:1.3s"/><path class="sg k" d="M270 132L370 248" style="animation-delay:1.3s"/><path class="sg b" d="M270 161L370 248" style="animation-delay:1.3s"/><path class="sg b" d="M270 161L370 305" style="animation-delay:1.3s"/><path class="sg k" d="M270 219L370 75" style="animation-delay:1.2s"/><path class="sg b" d="M270 219L370 132" style="animation-delay:1.3s"/><path class="sg b" d="M270 219L370 305" style="animation-delay:1.3s"/><path class="sg b" d="M270 248L370 75" style="animation-delay:1.3s"/><path class="sg b" d="M270 248L370 132" style="animation-delay:1.2s"/><path class="sg b" d="M270 276L370 248" style="animation-delay:1.3s"/><path class="sg b" d="M270 276L370 305" style="animation-delay:1.3s"/><path class="sg b" d="M270 305L370 75" style="animation-delay:1.3s"/><path class="sg b" d="M370 132L470 235" style="animation-delay:2.0s"/><path class="sg b" d="M370 190L470 145" style="animation-delay:1.9s"/>
+<circle class="nd" cx="70" cy="75" r="6" style="animation-delay:0.1s"/>
+<circle class="nd" cx="70" cy="121" r="6" style="animation-delay:0.1s"/>
+<circle class="nd" cx="70" cy="167" r="6" style="animation-delay:0.1s"/>
+<circle class="nd" cx="70" cy="213" r="6" style="animation-delay:0.1s"/>
+<circle class="nd" cx="70" cy="259" r="6" style="animation-delay:0.1s"/>
+<circle class="nd" cx="70" cy="305" r="6" style="animation-delay:0.1s"/>
+<circle class="nd" cx="170" cy="75" r="6" style="animation-delay:0.7s"/>
+<circle class="nd" cx="170" cy="104" r="6" style="animation-delay:0.7s"/>
+<circle class="nd" cx="170" cy="132" r="6" style="animation-delay:0.7s"/>
+<circle class="nd" cx="170" cy="161" r="6" style="animation-delay:0.7s"/>
+<circle class="nd" cx="170" cy="190" r="6" style="animation-delay:0.7s"/>
+<circle class="nd" cx="170" cy="219" r="6" style="animation-delay:0.7s"/>
+<circle class="nd" cx="170" cy="248" r="6" style="animation-delay:0.7s"/>
+<circle class="nd" cx="170" cy="276" r="6" style="animation-delay:0.7s"/>
+<circle class="nd" cx="170" cy="305" r="6" style="animation-delay:0.7s"/>
+<circle class="nd" cx="270" cy="75" r="6" style="animation-delay:1.4s"/>
+<circle class="nd" cx="270" cy="104" r="6" style="animation-delay:1.4s"/>
+<circle class="nd" cx="270" cy="132" r="6" style="animation-delay:1.4s"/>
+<circle class="nd" cx="270" cy="161" r="6" style="animation-delay:1.4s"/>
+<circle class="nd" cx="270" cy="190" r="6" style="animation-delay:1.4s"/>
+<circle class="nd" cx="270" cy="219" r="6" style="animation-delay:1.4s"/>
+<circle class="nd" cx="270" cy="248" r="6" style="animation-delay:1.4s"/>
+<circle class="nd" cx="270" cy="276" r="6" style="animation-delay:1.4s"/>
+<circle class="nd" cx="270" cy="305" r="6" style="animation-delay:1.4s"/>
+<circle class="nd" cx="370" cy="75" r="6" style="animation-delay:2.0s"/>
+<circle class="nd" cx="370" cy="132" r="6" style="animation-delay:2.0s"/>
+<circle class="nd" cx="370" cy="190" r="6" style="animation-delay:2.0s"/>
+<circle class="nd" cx="370" cy="248" r="6" style="animation-delay:2.0s"/>
+<circle class="nd" cx="370" cy="305" r="6" style="animation-delay:2.0s"/>
+<circle class="nd" cx="470" cy="145" r="6" style="animation-delay:2.6s"/>
+<circle class="nd" cx="470" cy="235" r="6" style="animation-delay:2.6s"/>
+<text class="m" x="70" y="332" font-size="11" fill="#5B6574" text-anchor="middle">flow features</text><text class="m" x="270" y="332" font-size="11" fill="#5B6574" text-anchor="middle">hidden layers</text>
+<text class="m" x="488" y="163" font-size="11" fill="#5B6574">benign</text><text class="m" x="488" y="241" font-size="11" fill="#C9D1DB">attack</text>
+<text class="m" x="590" y="40" font-size="11" fill="#8B95A5" letter-spacing="1.6"><tspan fill="#60A5FA">EXPLAINABILITY</tspan>  SHAP attributions</text>
+<line x1="860" y1="64" x2="860" y2="232" stroke="#4B5563"/>
+<text class="m" x="848" y="88" font-size="11" fill="#8B95A5" text-anchor="end">dst_port_entropy</text>
+<rect class="bx" x="860" y="76" width="218" height="16" rx="3" fill="#3B82F6" style="transform-origin:left;animation-delay:0.00s"/>
+<text class="m" x="1084" y="88" font-size="10" fill="#5B6574">+0.42</text>
+<text class="m" x="848" y="115" font-size="11" fill="#8B95A5" text-anchor="end">pkt_rate</text>
+<rect class="bx" x="860" y="103" width="161" height="16" rx="3" fill="#3B82F6" style="transform-origin:left;animation-delay:0.12s"/>
+<text class="m" x="1027" y="115" font-size="10" fill="#5B6574">+0.31</text>
+<text class="m" x="872" y="142" font-size="11" fill="#8B95A5" text-anchor="start">flow_duration</text>
+<rect class="bx" x="766" y="130" width="94" height="16" rx="3" fill="#4B5563" style="transform-origin:right;animation-delay:0.24s"/>
+<text class="m" x="760" y="142" font-size="10" fill="#5B6574" text-anchor="end">-0.18</text>
+<text class="m" x="848" y="169" font-size="11" fill="#8B95A5" text-anchor="end">syn_flag_ratio</text>
+<rect class="bx" x="860" y="157" width="73" height="16" rx="3" fill="#3B82F6" style="transform-origin:left;animation-delay:0.36s"/>
+<text class="m" x="939" y="169" font-size="10" fill="#5B6574">+0.14</text>
+<text class="m" x="872" y="196" font-size="11" fill="#8B95A5" text-anchor="start">bytes_in</text>
+<rect class="bx" x="813" y="184" width="47" height="16" rx="3" fill="#4B5563" style="transform-origin:right;animation-delay:0.48s"/>
+<text class="m" x="807" y="196" font-size="10" fill="#5B6574" text-anchor="end">-0.09</text>
+<text class="m" x="848" y="223" font-size="11" fill="#8B95A5" text-anchor="end">ttl_variance</text>
+<rect class="bx" x="860" y="211" width="31" height="16" rx="3" fill="#3B82F6" style="transform-origin:left;animation-delay:0.60s"/>
+<text class="m" x="897" y="223" font-size="10" fill="#5B6574">+0.06</text>
+<text class="m" x="866" y="250" font-size="10" fill="#5B6574">→ pushes toward attack</text><text class="m" x="854" y="250" font-size="10" fill="#5B6574" text-anchor="end">toward benign ←</text>
+<text class="m" x="590" y="286" font-size="11" fill="#8B95A5" letter-spacing="1.6"><tspan fill="#60A5FA">HW-NAS</tspan>  model sized to each device tier</text>
+<text class="s" x="590" y="314" font-size="11" fill="#C9D1DB">gateway</text>
+<rect x="590" y="322" width="170" height="12" rx="3" fill="none" stroke="#4B5563" stroke-dasharray="3 3"/>
+<rect class="nb" x="590" y="322" width="133" height="12" rx="3" fill="#60A5FA" style="animation-delay:0.0s"/>
+<g class="ok" style="animation-delay:0.0s"><text class="m" x="760" y="314" font-size="10" fill="#60A5FA" text-anchor="end">fits ✓</text></g>
+<text class="s" x="786" y="314" font-size="11" fill="#C9D1DB">app processor</text>
+<rect x="786" y="322" width="170" height="12" rx="3" fill="none" stroke="#4B5563" stroke-dasharray="3 3"/>
+<rect class="nb" x="786" y="322" width="102" height="12" rx="3" fill="#60A5FA" style="animation-delay:0.2s"/>
+<g class="ok" style="animation-delay:0.2s"><text class="m" x="956" y="314" font-size="10" fill="#60A5FA" text-anchor="end">fits ✓</text></g>
+<text class="s" x="982" y="314" font-size="11" fill="#C9D1DB">microcontroller</text>
+<rect x="982" y="322" width="170" height="12" rx="3" fill="none" stroke="#4B5563" stroke-dasharray="3 3"/>
+<rect class="nb" x="982" y="322" width="71" height="12" rx="3" fill="#60A5FA" style="animation-delay:0.4s"/>
+<g class="ok" style="animation-delay:0.4s"><text class="m" x="1152" y="314" font-size="10" fill="#60A5FA" text-anchor="end">fits ✓</text></g>
+<text class="m" x="1170" y="350" font-size="10" fill="#5B6574" text-anchor="end">illustrative values</text>
+<rect x=".5" y=".5" width="1199" height="359" rx="12" fill="none" stroke="#222934"/></g>
+</svg>
